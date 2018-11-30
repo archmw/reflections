@@ -9,3 +9,48 @@ working directory hold all files need to run a project and few
 more informative or other files as well .
 You may not need to track all the files in the directory, that 
 seperated staging area from working direcory.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+By staging area, it takes single file that we have added manually to 
+the staging area. so before commiting we can use git diff to make sure
+what we are about to commit.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+At times like a naive coder has started working on live project or, you
+want to add a new feature in beta mode you can add a branch without 
+disturbing master working files. as when new features are added and testin
+is done successfully you may later merge this branch of new feature to master
+branch. With branching original master copy of files remains unchanged. so 
+branching would be useful for testing new features, adding language versions
+or by adding different locales or for adding paid and unpaid versions of 
+project.
+
+If a branch is deleted and leaves some commits unreachable from existing branches,
+those commits will continue to be accessible by commit id, until Git’s garbage 
+collection runs. This will happen automatically from time to time, unless you 
+actively turn it off. You can also run this process manually with git gc.
+
+How do the diagrams help you visualize the branch structure?
+with the help of diagrrams, user can actually undertsnd the path of histroy 
+as well it saves user from losing a new branch commit which is not at all
+traceable from any branch or if user moves to master branch, that unnamed branch
+may be lost forever and cannot be tracked back. for that we a have a command
+git checkout -b newbranch name
+
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+As two branches are merged, code is merged in such a way that a new feature is
+added in code, without disturbing the master code. with diagram we get to know
+from where and when we merged another code.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+Automatic merging can have conflicts that cannot be resolved by git on
+its own that needs to be resolved by programmer itself. while in manuall
+merging it is not easy as well as reliable mode to merge the branch, rather
+git should do it automatically except in some cases where human intervention
+is required.
+
+
