@@ -1,0 +1,32 @@
+how did viewing the diff between two versions of a file help you see the 
+bug that was introduced?
+My Ans: By comparing two files you can compare those lines which are added
+or removed or modified in new file as compared to old files, you may easily
+get the bug and fix it.
+
+
+How could having easy access to the entire history of a file make you a
+more efficient programmer in long term?
+You can easily track changes at each commit. This
+
+
+Why do you think some version control systems like Git allow saving multiple
+files in one commit, while others like Google Docs treat each file seperately?
+Ans: Git version control system tracks a project where it can wokr on multiple
+files, while Google docs deals with documents where multiple files in one commit 
+are not requiered.
+
+How can you use the commands git log and git diff to view the history of files?
+with git log it shows all commits on lines which were modified. /using commit 
+id from git log, we can compare two commit files to see difference between 
+selected commits.
+
+How might using version control make you more confident to make changes
+that could break something?
+using git checkout command we can easily rollback to last working code,
+so that makes more confident.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Well now I will using it for my every project be it for android or for embedded
+systems.
