@@ -11,3 +11,25 @@ automatically stay up-to-date with your remote repository?
 It is necessary to stay updated, otherwise later with lots of commits at
 either git or at remote, code may gets confilct or it might get difficult
 to later pull it properly.
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+Forks is getting a cope of repository in your own github account. Any changes 
+you make will not affect the origin repository held by the owner. you can then 
+get this repository to your local machine to work on it as and when required.
+
+Clone is getting copy of repository to local machine, it possible when you
+have link to repository on github or you can even clone same repository on your
+local machine from one location to another.
+
+Branch: Branch is when you do not want to disturb the current status of code, but
+rather you are planning to add a feature to your code and you do not want to publish
+this feature utill it is completely tested OK. Or you can branch you repository when
+you want a new coder to work on any part of code without disturbing the current status
+of code.
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+you can compare the changes you made, if some bug occured, you may need to revert back.
+or you may refer to code or logic.
