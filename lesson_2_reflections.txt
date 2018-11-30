@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+When a repository is initialized, empty git repository gets created.
+It is required in order to make a new repository.
+
+How is the staging area different from the working directory and 
+the repository? What value do you think it offers?
+Staging area holds the files which are need to be tracked while 
+working directory hold all files need to run a project and few 
+more informative or other files as well .
+You may not need to track all the files in the directory, that 
+seperated staging area from working direcory.
