@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+Remote repository can be used for two purposes, first it keeps back up of your code, and 
+you can share your code with others to help the coder community. second it may be useful
+when some of coders are working on same project but from different locations.
