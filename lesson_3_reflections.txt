@@ -23,13 +23,17 @@ Clone is getting copy of repository to local machine, it possible when you
 have link to repository on github or you can even clone same repository on your
 local machine from one location to another.
 
-Branch: Branch is when you do not want to disturb the current status of code, but
-rather you are planning to add a feature to your code and you do not want to publish
-this feature utill it is completely tested OK. Or you can branch you repository when
-you want a new coder to work on any part of code without disturbing the current status
-of code.
+Branch: Branch is when you do not want to disturb the current status of code, 
+but rather you are planning to add a feature to your code and you do not want 
+to publish this feature utill it is completely tested OK. Or you can branch 
+you repository when you want a new coder to work on any part of code without 
+disturbing the current status of code.
 
 What is the benefit of having a copy of the last known state of the remote 
 stored locally?
 you can compare the changes you made, if some bug occured, you may need to revert back.
 or you may refer to code or logic.
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+It would get harder to collaborate without using Git or Github.
